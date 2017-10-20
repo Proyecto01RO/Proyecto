@@ -264,7 +264,7 @@
 								<h4 class="section-title">Buscador</h4>
 								<div class="section-inner">
 									<ul class="unstyled pretty-list arrow-list cl-effect-1">
-										<form>
+										<form name="buscador" action="anuncios_filtro.php" method="GET">
 											<label>Título:</label>	
 											<input type="text" name="titulo" class="formu"><br/>
 
@@ -284,7 +284,7 @@
 												<label>Número de serie:</label>	
 												<input type="text" name="nserie" class="formu"><br/>
 
-												<label>Fecha anterior a:</label>	
+												<label>Fecha anterior a:</label><br/>	
 												<input type="Date" name="fechaAnterior" class="formu"><br/><br/>
 
 												<input type="checkbox" name="estado">&nbsp Incluir bicis encontradas<br/><br/>
